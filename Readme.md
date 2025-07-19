@@ -15,14 +15,14 @@ A simple Node.js REST API built with Express.js for storing, retrieving, updatin
 
 ## 🚀 Features
 
-✅ Get a random joke  
-✅ Get a joke by ID  
-✅ Filter jokes by type  
-✅ Create a new joke  
-✅ Replace or update a joke  
-✅ Partially update a joke  
-✅ Delete a joke  
-✅ Delete all jokes (with master key)
+ Get a random joke  
+ Get a joke by ID  
+ Filter jokes by type  
+ Create a new joke  
+ Replace or update a joke  
+ Partially update a joke  
+ Delete a joke  
+ Delete all jokes (with master key)
 
 ---
 
@@ -113,15 +113,15 @@ Change this value as needed.
 
 ## 🧭 Example cURL Requests
 
-✅ Create a new joke
+Create a new joke
 curl -X POST http://localhost:3000/jokes \
   -d "text=This is a new joke" \
   -d "type=Funny"
 
-✅ Delete all jokes
+Delete all jokes
 curl -X DELETE "http://localhost:3000/all?key=4VGP2DN-6EWM4SJ-N6FGRHV-Z3PR3TT"
 
-✅ Get a random joke
+Get a random joke
 curl http://localhost:3000/random
 
 ---
