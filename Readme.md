@@ -1,4 +1,4 @@
-# 🎉 DIY Jokes API
+#  DIY Jokes API
 
 A simple Node.js REST API built with Express.js for storing, retrieving, updating, and deleting jokes.
 
